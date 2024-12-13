@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text styles with css</title>
+<style>
+table{ border: 1px blue solid;
+}
+h4{ font-family: 'Courier New', Courier, monospace;
+}
+#typo{ font-size: 14px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#mydiv{color: aqua;
+transform: rotate(180deg);
+}
+#p1{text-decoration:overline;
+text-transform: capitalize;
+}
+#p2{text-decoration: underline;
+text-transform:uppercase;
+}
+#p3{
+text-decoration: line-through;
+text-transform: none;
+}
+#p4{
+text-decoration: double underline;
+text-transform: none;
+}
+h2{
+color: aquamarine;
+text-shadow: 5px 7px 9px blue;
+}
+h3{
+background-color: blue;
+box-shadow: 12px 9px 8px aqua;
+}
+</style>
+</head>
+<body>
+<table width="100%">
+<tr>
+<td>Typography</td>
+<td><h4>welcome to the word customization table</h4></td>
+<p id="typo">Welcome to word customization table</p>
+</tr>
+<tr>
+<td>Transform</td>
+<td><div id="mydiv">Transform</div></td>
+</tr>
+<tr>
+<td>
+<p id="p1">hello</p>
+<p id="p2">sup</p>
+<p id="p3">hi</p>
+<p id="p4">congrats</p>
+</td>
+</tr>
+<tr>
+<td><h2>text shadows</h2></td>
+<td><h3>box shadows</h3></td>
+</tr>
+</table>
+    
+</body>
+</html>
